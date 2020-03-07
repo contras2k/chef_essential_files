@@ -17,7 +17,7 @@ search(:users, search_criteria) do |u|
     gid u['gid']
     shell u['shell']
     comment u['comment']
-    supports :manage_home => true
+    manage_home true
     home home_dir
     notifies :create, "ruby_block[reset group list]", :immediately
   end
