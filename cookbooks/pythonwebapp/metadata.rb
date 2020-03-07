@@ -1,3 +1,4 @@
+name             "pythonwebapp"
 maintainer       "John Ewart"
 maintainer_email "john@johnewart.net"
 license          "Apache 2.0"
